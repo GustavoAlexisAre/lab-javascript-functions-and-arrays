@@ -76,7 +76,7 @@ function averageNumbers(numbersAvg) {
     for(j=0;j<numbersAvg.length;j++)
     {
     //numbersAvg = numbersAvg.map(j => Math.floor(Math.abs(j)));
-    numbersAvg.forEach(function(){avg = ((numbersAvg[j] + avg)/numbersAvg.length);});
+    avg += numbersAvg[j]
     }
     return avg;
    
